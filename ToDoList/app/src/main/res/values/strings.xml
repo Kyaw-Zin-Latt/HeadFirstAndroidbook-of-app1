@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+    <string name="listening">Listening</string>
+    <string name="learning_android_development">Learning Android Development</string>
+    <string name="practice_english_language">Practice English Language</string>
+    <string name="doing_to_improve_knowledge">Doing to improve knowledge</string>
+    <string name="reading_book">Reading book</string>
+</resources>
