@@ -3,8 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.droidcafe.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_contact"
         android:orderInCategory="100"
+        android:icon="@drawable/ic_shopping_cart"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_status"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_status_info"
+        android:title="@string/action_status"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="30"
+        android:title="@string/action_order"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@drawable/ic_favorite"
+        android:orderInCategory="40"
+        android:title="@string/action_favorites"
+        app:showAsAction="ifRoom"/>
 </menu>
