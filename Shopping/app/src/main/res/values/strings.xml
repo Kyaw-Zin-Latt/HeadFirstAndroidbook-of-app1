@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
+
+    <string name="menu_shop">Shop</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_about">About me</string>
+    <string name="about_me">I am KyawZinLatt. Some of the person call me as lemon.I am 19 years old.I have lover. Her name is EaintChueMon. I am so interested concerning with IT field. I want to be Android Developer. I love creating web and android app.</string>
+</resources>

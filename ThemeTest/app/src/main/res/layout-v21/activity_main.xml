@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/textButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_add"
+        android:drawableTint="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:drawablePadding="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:text="BUTTON" />
+
+    <Button
+        android:id="@+id/button"
+        android:src="@drawable/ic_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/ic_alarm"
+        android:drawableTint="@color/colorAccent"
+        android:text="@string/btn2"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:contentDescription="@string/btn2"/>
+<!--        style="@style/alarm1" />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:src="@drawable/ic_alarm"
+        android:layout_toEndOf="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_background"
+        android:layout_margin="20dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="12dp"
+        android:contentDescription="@string/btn2"/>
+<!--        style="@style/alarm1" />-->
+</LinearLayout>

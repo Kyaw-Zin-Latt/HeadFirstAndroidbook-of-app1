@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">View and View Group</string>
+    <string-array name="spinner_values">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
+</resources>

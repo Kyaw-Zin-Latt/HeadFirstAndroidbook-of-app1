@@ -20,9 +20,7 @@ public class MainActivity extends AppCompatActivity {
         TextView article_text = findViewById(R.id.article);
         registerForContextMenu(article_text);
     }
-    public void displayToast(String message){
-        Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
-    }
+
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -47,5 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 return super.onContextItemSelected(item);
         }
 
+    }
+    public void displayToast(String message){
+        Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
     }
 }

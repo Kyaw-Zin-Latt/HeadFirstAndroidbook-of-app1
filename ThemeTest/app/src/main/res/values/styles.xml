@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:tint"> @color/colorAccent</item>
+
+    </style>
+
+    <style name="alarm1" parent="ThemeButton">
+        <item name="android:contentDescription">@string/btn2</item>
+        <item name="android:src">@drawable/ic_alarm</item>
+    </style>
+
+</resources>
